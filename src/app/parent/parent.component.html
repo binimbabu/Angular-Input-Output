@@ -1,0 +1,13 @@
+<!--
+     @Input
+      <button (click)="increment()">
+Increment
+</button>
+<button (click)="decrement()">
+Decrement
+</button> -->
+
+<!-- @Output -->
+<app-child [count]=Counter (countChanged)="countChangedHandler($event)"></app-child>
+
+From child{{ClickCounter}}
